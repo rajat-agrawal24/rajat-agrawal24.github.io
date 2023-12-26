@@ -11,6 +11,12 @@ p{
     padding: 0;
 }
 
+a{
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+
 button{
     padding: 0;
     margin: 0;
@@ -89,7 +95,7 @@ button{
 #menuBox p:hover{
     padding-top:6px;
 }
-.genBtn:hover{
+.genBtn a:hover{
     color: #2bd576;
 }
 
@@ -143,6 +149,7 @@ h4{
     border-bottom-right-radius: 4px; */
     position:sticky;
     top: 0;
+    z-index: 1;
 }
 
 .btnGen{
@@ -275,6 +282,7 @@ h4{
     flex-direction: row;
     color: #7e7e7e;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #socialPanel p{
